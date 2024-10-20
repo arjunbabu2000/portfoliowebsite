@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="home-section">
+      <img src="saro.jpg" alt="Arjun's Photo" class="profile-img" />
+      <h1>Hello, I'm <span>Arjun</span></h1>
+      <p>
+        MCA student from CUSAT passionate about software development and AI.
+      </p>
+      <a href="mailto:arjunbabu051@gmail.com" class="cta-button"
+        >Get in Touch</a
+      >
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I'm currently in my final year of MCA at CUSAT with a focus on Cybersecurity, AI and
+        data analytics.
+      </p>
+      <h3>Skills:</h3>
+      <ul>
+        <li>Python, TensorFlow, PyTorch</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Data Analytics & Federated Learning</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>1. Federated Learning Mini Project</h3>
+        <p>
+          My mini-project focuses on developing defense mechanisms against
+          poisoning attacks in federated learning. This project explores
+          techniques like robust aggregation methods and anomaly detection to
+          ensure the integrity and reliability of the global model.
+        </p>
+      </div>
+      <div class="project">
+        <h3>
+          2. energyON Website with Chatbot Deployment
+        </h3>
+        <p>
+            Developed an online marketplace for bioenergy solutions with integrated Chabot functionality powered by IBM Watson. Developed a user-friendly platform on which customers can purchase bioenergy products and services, enhanced customer engagement through AI-driven support on inquiries and product recommendations.
+        </p>
+      </div>
+      <div class="project">
+        <h3>3. Personal Portfolio Website</h3>
+        <p>
+          This portfolio site showcases my skills and projects, built using pure
+          HTML, CSS, and JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+      <h2>Education</h2>
+      <ul>
+        <li>MCA - Cochin University of Science and Technology (CUSAT), 2025</li>
+        <li>Bsc Chemistry - St.Albert's College Ernakulam, 2021</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="certifications-section">
+      <h2>Certifications</h2>
+      <div class="certifications-container">
+        <div class="certificate">
+          <h3>
+            <a
+              href=""
+              target="_blank"
+              >IBM Artificial Intelligence Fundamental - IBM</a
+            >
+          </h3>
+          <p>Demonstrates a foundational understanding of Artificial Intelligence concepts, objectives, and practices</p>
+        </div>
+        <div class="certificate">
+          <h3>
+            <a
+              href=""
+              target="blank"
+              >Getting Started with Artificial Intelligence - IBM</a
+            >
+          </h3>
+          <p>•	Gives a more detailed understanding of Artificial Intelligence concepts.</p>
+        </div>
+        <div class="certificate">
+          <h3>
+            <a
+              href=""
+              target="blank"
+              >Getting Started with Enterprise grade AI - IBM</a
+            >
+          </h3>
+          <p>
+            Gaining foundational knowledge in implementing AI solutions in enterprise settings, including AI strategy, deployment, and management.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <div class="form-field">
+            <input type="text" id="name" placeholder="Name" required />
+          </div>
+          <div class="form-field">
+            <input type="email" id="email" placeholder="Email" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea
+            id="message"
+            placeholder="Message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+      <div id="thank-you-message" class="thank-you" style="display: none">
+        Thank you for your message! We will get back to you shortly.
+      </div>
+      <div class="contact-icons">
+        <a href="tel:+918921240450" target="_blank"
+          ><i class="fas fa-phone icon"></i
+        ></a>
+        <a href="https://instagram.com/____arjun_b" target="_blank"
+          ><i class="fab fa-instagram icon"></i
+        ></a>
+        <a href="linkedin.com/in/arjunbabukc" target="_blank"
+          ><i class="fab fa-linkedin-in icon"></i
+        ></a>
+        <a href="mailto:arjunbabu051@gmail.com"
+          ><i class="fas fa-envelope icon"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Arjun's Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
